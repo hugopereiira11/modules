@@ -19,6 +19,11 @@
             "nome": "Gustavo",
             "idade": 18,
             "func": "Repositor"
+        },
+        {
+            "nome": "Eduardo",
+            "idade": 23,
+            "func": "Repositor"
         }
     ]
 }
