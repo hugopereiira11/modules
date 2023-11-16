@@ -45,3 +45,7 @@ input[type="checkbox"] {
   align-items: center;
   text-align: center;
 }
+
+.list {
+  text-align: left;
+}
