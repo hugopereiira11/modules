@@ -45,11 +45,25 @@ logout.addEventListener('click', () => {
 
 check()
 
-fetch("list.json").then((response) => {
+/* fetch("list.json").then((response) => {
   response.json().then((dados) => {
     dados.usuarios.map((usuario) => {
       list.innerHTML += `
       <li>${usuario.nome} - ${usuario.idade} anos - ${usuario.func}</li>
+      `
+    })
+  })
+}) */
+
+fetch("list.json").then((response) => {
+  response.json().then((dados) => {
+    dados.usuarios.map((usuario) => {
+      list.innerHTML += `
+      <tr>
+      <td>${usuario.nome}</td>
+      <td>${usuario.idade}</td>
+      <td>${usuario.func}</td>
+      </tr>
       `
     })
   })
