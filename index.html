@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <script src="theme.js" defer></script>
+    <script src="form.js" defer></script>
+  </head>
+  <body>
+    <div class="nav">
+      <div id="welcome">
+        Olá, <span id="nome"></span>!
+        <button type="submit" id="logout">Sair</button>
+      </div>
+
+      <input type="checkbox" name="caixinha" id="caixinha">
+      <label for="caixinha">
+        <i class="bi bi-sun"></i>
+        <i class="bi bi-moon"></i>
+      </label>
+    </div>
+    <div class="container">
+      <form id="form-name">
+        <h1>Por favor, preencha o seu nome para continuar</h1>
+        <input type="text" name="name" id="name" placeholder="Digite seu nome aqui..." required>
+        <input type="submit" name="botao" value="Confirmar">
+      </form>
+    </div>
+    <div id="audio">
+      <audio controls loop autoplay>
+        <source src="onon.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+  </body>
+</html>
