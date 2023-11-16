@@ -1,5 +1,6 @@
 body {
   transition-duration: 0.5s;
+  height: 100vh;
 }
 
 input[type="checkbox"] {
@@ -38,21 +39,12 @@ input[type="checkbox"] {
   display: none;
 }
 
-.container {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.list {
-  text-align: left;
-}
-
 table {
   border-collapse: collapse;
   border: 1px solid black;
+  width: 100%;
+  right: 50px;
+  left: 50px;
 }
 
 td, th {
@@ -62,4 +54,11 @@ td, th {
 
 .dark td, .dark th {
   border: 1px solid white;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
