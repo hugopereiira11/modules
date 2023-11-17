@@ -6,6 +6,9 @@ input[type="checkbox"] {
   display: none;
 }
 
+input{
+  width: 300px;
+}
 .bi {
   font-size: 1.5rem;
 }
