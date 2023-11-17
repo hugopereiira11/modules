@@ -1,47 +1,50 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <title></title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="style.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
-    <script src="theme.js" defer></script>
-    <script src="form.js" defer></script>
-  </head>
-  <body>
-    <div class="bar">
-      <div id="welcome">
-        Olá, <span id="nome"></span>!
-        <button type="submit" id="logout">Sair</button>
-      </div>
 
-      <input type="checkbox" name="caixinha" id="caixinha">
-      <label for="caixinha">
-        <i class="bi bi-sun"></i>
-        <i class="bi bi-moon"></i>
-      </label>
-    </div>
-    
-    <div class="formu">
-      <form id="form-name">
-          <h1>Preencha o seu nome para continuar...</h1>
-          <input type="text" name="name" id="name" placeholder="Digite seu nome aqui..." required>
-          <br>
-          <input type="submit" name="botao" value="Confirmar">
-      </form>
-      </div>
+<head>
+  <title></title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <script src="theme.js" defer></script>
+  <script src="form.js" defer></script>
+</head>
 
-    <div class="container">
-      <h1>Lista de Funcionários</h1>
-      <!-- <ul class="list"></ul> -->
-      <table class="list">
-        <tr>
-          <th>Nome</th>
-          <th>Idade</th>
-          <th>Função</th>
-        </tr>
-      </table>
+<body>
+  <div class="bar">
+    <div id="welcome">
+      Olá, <span id="nome"></span>!
+      <button type="submit" id="logout">Sair</button>
     </div>
-  </body>
+
+    <input type="checkbox" name="caixinha" id="caixinha">
+    <label for="caixinha">
+      <i class="bi bi-sun"></i>
+      <i class="bi bi-moon"></i>
+    </label>
+  </div>
+
+  <div class="formu">
+    <form id="form-name">
+      <h1>Preencha o seu nome para continuar...</h1>
+      <input type="text" name="name" id="name" placeholder="Digite seu nome aqui..." required>
+      <br>
+      <input type="submit" name="botao" value="Confirmar">
+    </form>
+  </div>
+
+  <div class="container">
+    <h1>Lista de Funcionários</h1>
+    <!-- <ul class="list"></ul> -->
+    <table class="list">
+      <tr>
+        <th>Nome</th>
+        <th>Idade</th>
+        <th>Função</th>
+      </tr>
+    </table>
+  </div>
+</body>
+
 </html>
