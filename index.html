@@ -10,7 +10,7 @@
     <script src="form.js" defer></script>
   </head>
   <body>
-    <div class="nav">
+    <div class="bar">
       <div id="welcome">
         Olá, <span id="nome"></span>!
         <button type="submit" id="logout">Sair</button>
@@ -22,12 +22,14 @@
         <i class="bi bi-moon"></i>
       </label>
     </div>
-
-    <form id="form-name">
-        <h1>Preencha o seu nome para continuar...</h1>
-        <input type="text" name="name" id="name" placeholder="Digite seu nome aqui..." required>
-        <input type="submit" name="botao" value="Confirmar">
+    
+    <div class="formu">
+      <form id="form-name">
+          <h1>Preencha o seu nome para continuar...</h1>
+          <input type="text" name="name" id="name" placeholder="Digite seu nome aqui..." required>
+          <input type="submit" name="botao" value="Confirmar">
       </form>
+      </div>
 
     <div class="container">
       <h1>Lista de Funcionários</h1>

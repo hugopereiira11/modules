@@ -1,6 +1,5 @@
 body {
   transition-duration: 0.5s;
-  height: 100vh;
 }
 
 input[type="checkbox"] {
@@ -29,7 +28,7 @@ input[type="checkbox"] {
   display: block;
 }
 
-.nav {
+.bar {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -60,4 +59,10 @@ td, th {
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+
+.formu {
+  text-align: center;
+  width: 80%;
+  margin-left: 10%;
 }
